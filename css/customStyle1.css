@@ -1,0 +1,101 @@
+body, html{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-family: Arial;
+}
+
+body{
+	background: rgba(217,238,225,.3);
+}
+
+a.nav-links{
+	color: white !important
+}
+.active{
+	border: 1px solid #ffff33;
+}
+
+.nav-link{
+	color: #ffff33 !important;
+}
+
+.nav-link:hover{
+	color: #ffff33 !important;
+	border: 1px solid #ffff33;
+}
+
+.hero_rapper{
+	background: url('../imgs/book-1210030_1920.jpg');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.round-card{
+	border-radius: 20px;
+}
+
+.my-color{
+	color: #04aa6d;
+}
+
+.my-btn{
+	background: #04aa6d;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	border-radius: 20px;
+}
+
+.my-btn-outline{
+	color: #04aa6d;
+	background:white;
+	border: 2px solid #04aa6d;
+	font-weight: bold;
+	font-size: 20px;
+	border-radius: 20px;
+}
+
+.doctring_imgs{
+	max-width: 100px !important;
+}
+
+.mylist1 li{
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.upcoming_card{
+	margin-top: -100px;
+	background: rgb(6, 6, 20);
+	border-radius: 20px;
+	box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2)
+}
+
+.bolder{
+	font-weight: bolder;
+	font-size: 200%;
+}
+
+.dark-bg{
+	background: rgb(6, 6, 20);
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+  background-color: #04AA6D;
+  color: white;
+}
